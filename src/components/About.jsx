@@ -86,34 +86,46 @@ const Planet = ({ orbitRadius, color, size, orbitSpeed, texture }) => {
 const About = () => {
   return (
     <div className="bg-[#0c0c0c] flex text-white" id="about">
-      <div className="left h-[100vh] w-[60%] flex justify-start">
+      <div className="left h-[100vh] w-[57%] flex justify-start">
         <Canvas camera={{ position: [0, 0, 50] }} className="">
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} />
           <SolarSystem />
         </Canvas>
       </div>
-      <div className="right flex flex-col justify-center px-10 space-y-3 w-[40%]">
+      <div className="right flex flex-col justify-center px-6  space-y-3 w-[40%]">
         <p className="text-[#6c827d] uppercase">About us</p>
         <h1 className="text-4xl">
-          WE <span className="text-[#6ed5bc]">Xplore</span> The Universe To Provide You The Best Solution
+          WE <span className="text-[#6ed5bc]">Xplore</span> The Universe To
+          Provide You The Best Solution
         </h1>
         <div className="line w-8 h-0.5 bg-[#7c8b86]"></div>
         <p className="my-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          quia dolorem fugit nihil iusto non minima repellat nostrum eligendi
-          sapiente ex odit? Animi tenetur maiores deleniti qui dolorum inventore
-          ullam.
+          At DevXplore, we understand that the world of technology is constantly
+          evolving, and staying ahead of the curve can be a challenge. That's
+          why we offer a wide range of services designed to help you stay
+          up-to-date with the latest tools and techniques, from custom software
+          development to personalized training programs.
         </p>
-        <div className="flex">
-            <div className="item">
-                <h3 className="text-xl font-semibold"> icon Clean Code</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, accusamus.</p>
-            </div>
-            <div className="item">
-                <h3 className="text-xl font-semibold"> icon Modern Approach</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, accusamus.</p>
-            </div>
+        <p className="my-5">
+          Whether you're looking to enhance your skills as an individual or seeking to optimize your team's performance, DevXplore has the expertise and resources you need to succeed. With our tailored solutions and commitment to excellence, you can be confident that you're getting the best possible service and support.
+        </p>
+        <p className="my-5">
+          So why wait? <a href="#contact">Contact us</a> today to learn more about how DevXplore can help you achieve your development and training goals.
+        </p>
+        <div className="flex py-7">
+          <div className="item">
+            <h3 className="text-xl font-semibold"> icon Clean Code</h3>
+            <p>
+            Clean code isn't just a trend - it's a fundamental part of successful development.
+            </p>
+          </div>
+          <div className="item">
+            <h3 className="text-xl font-semibold"> icon Modern Approach</h3>
+            <p>
+            Embrace innovation and efficiency with our modern approach to development.
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -32,10 +32,7 @@ const Banner = () => {
         </h1>
         <div className="line w-8 h-0.5 bg-[#7c8b86]"></div>
         <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          quia dolorem fugit nihil iusto non minima repellat nostrum eligendi
-          sapiente ex odit? Animi tenetur maiores deleniti qui dolorum inventore
-          ullam.
+        Welcome to DevXplore, the premier development and training agency for individuals and businesses alike. Our team of experienced developers and educators are dedicated to helping you achieve your goals by providing top-notch training and development services.
         </p>
       </div>
       <div className="right w-[40%] h-[100%]">

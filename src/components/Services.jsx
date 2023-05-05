@@ -11,14 +11,10 @@ const Services = () => {
         <div className="line w-16 h-0.5 bg-[#7c8b86]"></div>
         <div className="para space-y-5">
           <p className="mt-5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
-            voluptatem eum sed? Esse itaque minus recusandae nihil numquam,
-            perferendis officiis necessitatibus, blanditiis iusto ipsum odio
-            harum et voluptates asperiores. Iste.
+          At DevXplore, we provide a wide range of development and teaching services to help individuals and businesses optimize their performance and achieve their goals. Our services include custom software development, personalized training programs, and guidance on modern development approaches. We also offer expertise in areas such as project management, quality assurance, and software architecture. Our mission is to provide exceptional service and support to help our clients succeed in today's fast-paced and constantly evolving technology landscape.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequatur, temporibus.
+          "DevXplore offers custom software development, personalized training, and modern development guidance. We provide expert support to help clients succeed."
           </p>
         </div>
       </div>
