@@ -2,6 +2,8 @@ import { useRef, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import map from "../assets/images/mars.jpg";
+
+//Planet
 const Sphere = () => {
   const base = new THREE.TextureLoader().load(map);
   const ref = useRef();

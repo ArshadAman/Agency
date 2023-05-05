@@ -10,9 +10,8 @@ const NavBar = () => {
             <ul className='flex items-center space-x-4'>
               <a href="#" className='text-white hover:text-[#7ee6c6]'><li>Home</li></a>
               <a href="#services" className='text-white hover:text-[#7ee6c6]'><li>Services</li></a>
-              <a href="" className='text-white hover:text-[#7ee6c6]'><li>Portfolio</li></a>
-              <a href="" className='text-white hover:text-[#7ee6c6]'><li>Pages</li></a>
-              <a href="" className='text-white hover:text-[#7ee6c6]'><li>Contact Us</li></a>
+              <a href="#about" className='text-white hover:text-[#7ee6c6]'><li>About</li></a>
+              <a href="#contact" className='text-white hover:text-[#7ee6c6]'><li>Contact Us</li></a>
             </ul>
         </nav>
     </div>
